@@ -1,5 +1,4 @@
-/* Footer — Quiet Modernism
-   Minimal, warm, typographic */
+/* Footer - Quiet Modernism - Updated for Meta/industry framing */
 
 import { Link } from "wouter";
 
@@ -17,8 +16,9 @@ export default function Footer() {
               Ali Heller
             </h3>
             <p className="text-sm leading-relaxed" style={{ fontFamily: "'Lora', Georgia, serif" }}>
-              Anthropologist, Researcher, Photographer.<br />
-              Assistant Professor, University of Maryland.
+              Senior UX Researcher, Meta.<br />
+              Ph.D. Cultural Anthropology.<br />
+              Author. Photographer.
             </p>
           </div>
 
@@ -32,12 +32,12 @@ export default function Footer() {
             </p>
             <nav className="flex flex-col gap-2">
               {[
-                { href: "/", label: "Welcome" },
+                { href: "/", label: "Home" },
+                { href: "/work", label: "Work & Research" },
                 { href: "/book", label: "Book" },
                 { href: "/photography", label: "Photography" },
-                { href: "/research", label: "Research" },
                 { href: "/blog", label: "Blog" },
-                { href: "/about", label: "About Ali" },
+                { href: "/about", label: "About" },
               ].map((link) => (
                 <Link key={link.href} href={link.href}>
                   <span
@@ -57,22 +57,27 @@ export default function Footer() {
               className="text-[#F8F4EF]/40 text-xs tracking-widest uppercase mb-4"
               style={{ fontFamily: "'Jost', system-ui, sans-serif" }}
             >
-              Contact
+              Connect
             </p>
-            <p className="text-sm leading-relaxed" style={{ fontFamily: "'Lora', Georgia, serif" }}>
-              Department of Anthropology<br />
-              University of Maryland<br />
-              College Park, MD
+            <p className="text-sm leading-relaxed mb-4" style={{ fontFamily: "'Lora', Georgia, serif" }}>
+              Seattle, WA
             </p>
-            <div className="flex gap-4 mt-4">
+            <div className="flex flex-col gap-2">
               <a
                 href="https://www.instagram.com/ali.heller/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#F8F4EF]/50 hover:text-[#7A9E7E] transition-colors duration-200"
-                style={{ fontFamily: "'Jost', system-ui, sans-serif", fontSize: "0.75rem", letterSpacing: "0.1em" }}
+                className="text-[#F8F4EF]/50 hover:text-[#7A9E7E] transition-colors duration-200 text-xs tracking-widest uppercase"
+                style={{ fontFamily: "'Jost', system-ui, sans-serif" }}
               >
                 Instagram
+              </a>
+              <a
+                href="mailto:ali.heller@gmail.com"
+                className="text-[#F8F4EF]/50 hover:text-[#7A9E7E] transition-colors duration-200 text-xs tracking-widest uppercase"
+                style={{ fontFamily: "'Jost', system-ui, sans-serif" }}
+              >
+                Email
               </a>
             </div>
           </div>
@@ -83,16 +88,16 @@ export default function Footer() {
             className="text-xs text-[#F8F4EF]/30"
             style={{ fontFamily: "'Jost', system-ui, sans-serif", letterSpacing: "0.06em" }}
           >
-            © {new Date().getFullYear()} Ali Heller. All rights reserved.
+            {new Date().getFullYear()} Ali Heller
           </p>
           <a
-            href="https://ali-heller.com/index.php/book/"
+            href="https://www.rutgersuniversitypress.org/fistula-politics/9780813595665"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-[#7A9E7E] hover:text-[#7A9E7E]/80 transition-colors"
             style={{ fontFamily: "'Jost', system-ui, sans-serif", letterSpacing: "0.06em" }}
           >
-            Fistula Politics — Rutgers University Press
+            Fistula Politics -- Rutgers University Press
           </a>
         </div>
       </div>
