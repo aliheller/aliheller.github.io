@@ -199,7 +199,7 @@ const categories = [
     id: "south-america",
     title: "South America",
     desc: "Colombia, Peru, and beyond — markets, coastlines, Indigenous communities, and the textures of everyday life.",
-    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/dziuUVuwqCoianGM.jpg",
+    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/iQNhfkdjGdLcJtCn.jpg",
     photos: southAmericaPhotos,
   },
   {
