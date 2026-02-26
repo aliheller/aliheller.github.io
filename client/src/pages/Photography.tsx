@@ -411,13 +411,13 @@ export default function Photography() {
               <div className="flex justify-center">
                 <div
                   className="overflow-hidden"
-                  style={{ border: '2px solid #2A2520', maxWidth: '340px', width: '100%' }}
+                  style={{ maxWidth: '420px', width: '100%' }}
                 >
                   <img
                     src={PHOTO_HERO}
                     alt="Ali photographing two women in Niger"
                     className="w-full object-cover block"
-                    style={{ maxHeight: '320px', objectPosition: 'center center' }}
+                    style={{ maxHeight: '380px', objectPosition: 'center center' }}
                   />
                 </div>
               </div>
