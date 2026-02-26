@@ -74,6 +74,39 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── FIELDWORK PHOTO STRIP ── */}
+      <section className="py-0">
+        <div className="grid grid-cols-4">
+          <div className="aspect-[4/3] overflow-hidden">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/TBodHSfpeHtvFaEa.jpg"
+              alt="Ali interviewing a woman in Niger"
+              className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            />
+          </div>
+          <div className="aspect-[4/3] overflow-hidden">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/GOoCtpEsympvyWhM.jpg"
+              alt="Ali with a group of women in Niger"
+              className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            />
+          </div>
+          <div className="aspect-[4/3] overflow-hidden">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/XfUOgnTiQelnuBYa.jpg"
+              alt="Ali laughing with women in colorful headscarves"
+              className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            />
+          </div>
+          <div className="aspect-[4/3] overflow-hidden">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/VgcgpseJhhehPEVO.jpg"
+              alt="Ali photographing two women in Niger — black and white"
+              className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            />
+          </div>
+        </div>
+      </section>
       {/* ── INTRO ── */}
       <section className="py-24 md:py-32">
         <div className="container">

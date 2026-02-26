@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
-const PHOTO_HERO = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/cswccTvUXInUnByg.jpg";
+const PHOTO_HERO = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/GlqbAuMFTzrDRght.jpg";
 
 const nigerPhotos = [
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/MvUzryuOOInMRnti.jpg", caption: "" },
@@ -199,7 +199,7 @@ const categories = [
     id: "south-america",
     title: "South America",
     desc: "Colombia, Peru, and beyond — markets, coastlines, Indigenous communities, and the textures of everyday life.",
-    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/iQNhfkdjGdLcJtCn.jpg",
+    cover: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/CganEnjoZqapSkFy.jpg",
     photos: southAmericaPhotos,
   },
   {
