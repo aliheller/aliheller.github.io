@@ -384,11 +384,11 @@ export default function Photography() {
 
       {/* Hero */}
       <div
-        className="relative h-[60vh] min-h-[400px] flex items-end pb-16"
+        className="relative h-[85vh] min-h-[500px] flex items-end pb-16"
         style={{
           backgroundImage: `url(${PHOTO_HERO})`,
           backgroundSize: "cover",
-          backgroundPosition: "center 30%",
+          backgroundPosition: "center center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-[#1A1714] via-black/30 to-transparent" />

@@ -9,7 +9,6 @@ import About from "./pages/About";
 import Book from "./pages/Book";
 import Research from "./pages/Research";
 import Photography from "./pages/Photography";
-import Blog from "./pages/Blog";
 
 function Router() {
   return (
@@ -20,7 +19,6 @@ function Router() {
       <Route path="/research" component={Research} />
       <Route path="/work" component={Research} />
       <Route path="/photography" component={Photography} />
-      <Route path="/blog" component={Blog} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
