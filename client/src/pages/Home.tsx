@@ -89,7 +89,7 @@ export default function Home() {
                 className="text-[#1A1714] text-xl md:text-2xl leading-relaxed mb-8"
                 style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontWeight: 400 }}
               >
-                Senior UX Researcher at Meta, where I lead research on teen well-being, age-appropriate content experiences, and social media and health — bringing a decade of ethnographic fieldwork to the challenge of building technology that genuinely serves people.
+                Senior UX Researcher at Meta, where I am a lead researcher on teen well-being, age-appropriate content experiences, and social media and health — bringing a decade of ethnographic fieldwork to the challenge of building technology that genuinely serves people.
               </p>
             </FadeSection>
             <FadeSection delay={200}>
