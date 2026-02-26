@@ -282,9 +282,16 @@ function Lightbox({ photos, initialIndex, onClose }: {
   );
 }
 
+const INITIAL_LOAD = 20;
+const LOAD_MORE_BATCH = 20;
+
 function CategorySection({ cat, index }: { cat: typeof categories[0]; index: number }) {
   const [expanded, setExpanded] = useState(false);
   const [lightboxIdx, setLightboxIdx] = useState<number | null>(null);
+  const [visibleCount, setVisibleCount] = useState(INITIAL_LOAD);
+  const isNiger = cat.id === "niger";
+  const displayedPhotos = isNiger ? cat.photos.slice(0, visibleCount) : cat.photos;
+  const hasMore = isNiger && visibleCount < cat.photos.length;
 
   return (
     <FadeSection delay={index * 80}>
@@ -336,7 +343,7 @@ function CategorySection({ cat, index }: { cat: typeof categories[0]; index: num
               {cat.desc}
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
-              {cat.photos.map((photo, i) => (
+              {displayedPhotos.map((photo, i) => (
                 <div
                   key={i}
                   className="aspect-square overflow-hidden cursor-pointer group relative"
@@ -352,6 +359,20 @@ function CategorySection({ cat, index }: { cat: typeof categories[0]; index: num
                 </div>
               ))}
             </div>
+            {hasMore && (
+              <div className="flex flex-col items-center mt-8 gap-2">
+                <button
+                  onClick={() => setVisibleCount(c => Math.min(c + LOAD_MORE_BATCH, cat.photos.length))}
+                  className="px-8 py-3 border border-[#C8BFB5] text-[#4A4440] text-xs tracking-[0.18em] uppercase hover:bg-[#1A1714] hover:text-white hover:border-[#1A1714] transition-all duration-300"
+                  style={{ fontFamily: "'Jost', system-ui, sans-serif" }}
+                >
+                  Load More
+                </button>
+                <p className="text-[#B0A89E] text-xs tracking-widest" style={{ fontFamily: "'Jost', system-ui, sans-serif" }}>
+                  {visibleCount} of {cat.photos.length} photos
+                </p>
+              </div>
+            )}
           </div>
         )}
       </div>
