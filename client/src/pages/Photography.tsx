@@ -374,17 +374,9 @@ export default function Photography() {
     <div className="min-h-screen bg-[#1A1714]">
       <Navigation />
 
-      {/* Hero */}
-      <div
-        className="relative h-[85vh] min-h-[500px] flex items-end pb-16"
-        style={{
-          backgroundImage: `url(${PHOTO_HERO})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center 20%",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-t from-[#1A1714] via-black/30 to-transparent" />
-        <div className="container relative z-10 pt-32">
+      {/* Dark header band */}
+      <div className="pt-32 pb-16 md:pt-40 md:pb-20 bg-[#1A1714]">
+        <div className="container">
           <p
             className="text-white/40 text-xs tracking-[0.2em] uppercase mb-4"
             style={{ fontFamily: "'Jost', system-ui, sans-serif" }}
@@ -399,18 +391,29 @@ export default function Photography() {
           </h1>
         </div>
       </div>
-
-      {/* Intro */}
+      {/* Intro with B&W photo */}
       <section className="py-16 md:py-20">
         <div className="container">
-          <FadeSection>
-            <p
-              className="text-white/60 max-w-2xl text-lg leading-relaxed"
-              style={{ fontFamily: "'Lora', Georgia, serif" }}
-            >
-              Across fifteen years of fieldwork in West Africa, South America, and Southeast Asia, photography has been a constant companion — a way of seeing, remembering, and bearing witness to the lives of the people I have been privileged to know.
-            </p>
-          </FadeSection>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <FadeSection>
+              <p
+                className="text-white/60 text-lg leading-relaxed"
+                style={{ fontFamily: "'Lora', Georgia, serif" }}
+              >
+                Across fifteen years of fieldwork in West Africa, South America, and Southeast Asia, photography has been a constant companion — a way of seeing, remembering, and bearing witness to the lives of the people I have been privileged to know.
+              </p>
+            </FadeSection>
+            <FadeSection delay={100}>
+              <div className="overflow-hidden">
+                <img
+                  src={PHOTO_HERO}
+                  alt="Ali photographing two women in Niger"
+                  className="w-full object-cover"
+                  style={{ maxHeight: '420px', objectPosition: 'center center' }}
+                />
+              </div>
+            </FadeSection>
+          </div>
         </div>
       </section>
 

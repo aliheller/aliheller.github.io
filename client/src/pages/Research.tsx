@@ -145,7 +145,7 @@ export default function Research() {
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/GmGqPHFQNWUsKhHV.jpg"
             alt="Ali with women in Niger"
             className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-            style={{ objectPosition: 'center top' }}
+            style={{ objectPosition: 'center 25%' }}
           />
         </div>
         <div className="overflow-hidden" style={{ height: '320px' }}>
@@ -153,7 +153,7 @@ export default function Research() {
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/lBZrQxyaJZVcQsyB.jpg"
             alt="Ali photographing woman and baby"
             className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-            style={{ objectPosition: 'center center' }}
+            style={{ objectPosition: 'center 35%' }}
           />
         </div>
         <div className="overflow-hidden" style={{ height: '320px' }}>
@@ -161,7 +161,7 @@ export default function Research() {
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/mRobiLBZihlMRJQQ.jpg"
             alt="Ali in hijab with women"
             className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-            style={{ objectPosition: 'center top' }}
+            style={{ objectPosition: 'center 25%' }}
           />
         </div>
       </div>
