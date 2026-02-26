@@ -161,6 +161,7 @@ const asiaPhotos = [
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/eqYkEVYSWIRNbvGx.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/yjRASmgRfdQRyoOw.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/HCLXlHBLejlGiQnW.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/IijOptEUGDCOQgze.jpg", caption: "" },
 ];
 
 const naturePhotos = [
