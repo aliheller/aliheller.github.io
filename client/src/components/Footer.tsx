@@ -16,7 +16,7 @@ export default function Footer() {
               Ali Heller
             </h3>
             <p className="text-sm leading-relaxed" style={{ fontFamily: "'Lora', Georgia, serif" }}>
-              Senior UX Researcher, Meta.<br />
+              Senior UX Researcher.<br />
               Ph.D. Cultural Anthropology.<br />
               Author. Photographer.
             </p>
@@ -63,6 +63,15 @@ export default function Footer() {
               Seattle, WA
             </p>
             <div className="flex flex-col gap-2">
+              <a
+                href="https://www.linkedin.com/in/ali-heller-ph-d-23367775/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#F8F4EF]/50 hover:text-[#7A9E7E] transition-colors duration-200 text-xs tracking-widest uppercase"
+                style={{ fontFamily: "'Jost', system-ui, sans-serif" }}
+              >
+                LinkedIn
+              </a>
               <a
                 href="https://www.instagram.com/ali.heller/"
                 target="_blank"

@@ -6,9 +6,9 @@ import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
-const HERO_BG = "https://private-us-east-1.manuscdn.com/sessionFile/DYd9v69j2vqOCzKYnE64aF/sandbox/kLxrEY7LX6RFMHjNE43B4P-img-1_1772082145000_na1fn_aGVyby1iZw.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvRFlkOXY2OWoydnFPQ3pLWW5FNjRhRi9zYW5kYm94L2tMeHJFWTdMWDZSRk1Iak5FNDNCNFAtaW1nLTFfMTc3MjA4MjE0NTAwMF9uYTFmbl9hR1Z5YnkxaVp3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=VRiDEsaYW-R1RMHqo1JKvxJ9JJaqDcUrwSXjb6v8BV-3fjIzKXR5pHg2h89ZWoLw6Jyiisu9jeROCEvJd4BWkSoqphfw3O8M5HkqxzUmk3rRoxotHvO9sl3nDgDyquCPpC3b53Vllc58K1ycyZ3iQe9XHAO13-j84X3IydffbUBIE1dehUMyQbZJXZJ~E70YKMXrOHqvmgUJKXbxi-U98-ycmyD-DRfpLfb5P6iiIN1RvgnSUigtWvL5cmhCNYGHPWC6pumv82dXmJOC6V2bM-GTguT7AcT5sLAfqc66y4ZtABn~3A6QE0u3tRKfrpV6ADjeSF1Clyxd~b2o7ZZGOQ__";
+const HERO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/kKmJjExXcqCanmla.jpg";
 
-const PHOTO_BG = "https://private-us-east-1.manuscdn.com/sessionFile/DYd9v69j2vqOCzKYnE64aF/sandbox/kLxrEY7LX6RFMHjNE43B4P-img-3_1772082142000_na1fn_cGhvdG9ncmFwaHktaGVybw.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvRFlkOXY2OWoydnFPQ3pLWW5FNjRhRi9zYW5kYm94L2tMeHJFWTdMWDZSRk1Iak5FNDNCNFAtaW1nLTNfMTc3MjA4MjE0MjAwMF9uYTFmbl9jR2h2ZEc5bmNtRndhSGt0YUdWeWJ3LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=mm9HloQCvT0jcs~SiZIljKutCkq-RDLczHVAv0BcyvKtXy2jnvmpet19ZvLWgnDeU2cyT~0ZIYlJrHcK5PPxBrFZHBOFvxNuKiHlOA3fW6D2gwzqGsexzAP4eL4Wn2eXnTDduZ1HaJkpSiurWBULzdWMRD7rXqp8L~oH8S0OE28ocn-fgF-rnjvxeSyHKZfK8ObdLkwhYmH4~Ov-01mOW5q~b0g~3dYMmHpsvFc5fU91DSwpBrX1yVw5jLTRMoWfadH5RjbieI7nKvpkvSsiS~ys4dKKuYoprs-sr06mzpoY-NVdflcfcQKZIE4kvf1~T6FhXL0Ut8DVROl7Psj-1Q__";
+const PHOTO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/DYhqrxYhUKNRzCfk.jpg";
 
 function FadeSection({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -46,11 +46,11 @@ export default function Home() {
               className="text-white/60 text-xs tracking-[0.2em] uppercase mb-4"
               style={{ fontFamily: "'Jost', system-ui, sans-serif" }}
             >
-              Senior UX Researcher · Meta · Ph.D. Cultural Anthropology
+              Senior UX Researcher · Ph.D. Cultural Anthropology
             </p>
             <h1
               className="text-white text-6xl md:text-8xl lg:text-9xl leading-none mb-6"
-              style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontWeight: 300 }}
+              style={{ fontFamily: "'Playfair Display', Georgia, serif", fontWeight: 900, letterSpacing: "-0.03em" }}
             >
               Ali<br />Heller
             </h1>
