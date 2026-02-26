@@ -6,7 +6,7 @@ import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
-const HERO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/kKmJjExXcqCanmla.jpg";
+const HERO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/BbJfpJpSNFHxKVVb.jpg";
 
 const PHOTO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/DYhqrxYhUKNRzCfk.jpg";
 

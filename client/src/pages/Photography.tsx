@@ -174,6 +174,10 @@ const naturePhotos = [
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/QQtnOlNJONzNMDAN.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/LdDksjXgmtutrRpM.jpg", caption: "Civet" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/PgFnLJDACmxspSmY.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/xatvelOrFmbgMjtB.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/oaMAxMbxyJTbTdWO.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/dvpmhlKriUEIzSrn.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/lMMzmkxtOoPdTUpS.jpg", caption: "" },
 ];
 
 const categories = [
