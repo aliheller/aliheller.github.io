@@ -408,13 +408,18 @@ export default function Photography() {
               </p>
             </FadeSection>
             <FadeSection delay={100}>
-              <div className="overflow-hidden">
-                <img
-                  src={PHOTO_HERO}
-                  alt="Ali photographing two women in Niger"
-                  className="w-full object-cover"
-                  style={{ maxHeight: '420px', objectPosition: 'center center' }}
-                />
+              <div className="flex justify-center">
+                <div
+                  className="overflow-hidden"
+                  style={{ border: '2px solid #2A2520', maxWidth: '340px', width: '100%' }}
+                >
+                  <img
+                    src={PHOTO_HERO}
+                    alt="Ali photographing two women in Niger"
+                    className="w-full object-cover block"
+                    style={{ maxHeight: '320px', objectPosition: 'center center' }}
+                  />
+                </div>
               </div>
             </FadeSection>
           </div>
