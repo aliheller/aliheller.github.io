@@ -50,7 +50,7 @@ export default function Home() {
             </p>
             <h1
               className="text-white text-6xl md:text-8xl lg:text-9xl leading-none mb-6"
-              style={{ fontFamily: "'Playfair Display', Georgia, serif", fontWeight: 900, letterSpacing: "-0.03em" }}
+              style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontWeight: 200, letterSpacing: "-0.04em" }}
             >
               Ali<br />Heller
             </h1>

@@ -62,7 +62,7 @@ export default function Navigation() {
           {links.map((link) => (
             <Link key={link.href} href={link.href}>
               <span
-                className={`nav-link transition-colors duration-300 ${
+                className={`nav-link transition-colors duration-300 whitespace-nowrap ${
                   bg ? "" : "!text-white/80 hover:!text-white"
                 } ${isActive(link.href) ? "active" : ""}`}
               >
