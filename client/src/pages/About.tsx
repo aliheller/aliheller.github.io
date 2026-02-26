@@ -179,6 +179,18 @@ export default function About() {
 
             {/* Sidebar */}
             <div className="space-y-10">
+              {/* Portrait */}
+              <FadeSection>
+                <div className="overflow-hidden">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/WeDswaXfzArfgpkt.jpg"
+                    alt="Ali Heller"
+                    className="w-full object-cover"
+                    style={{ aspectRatio: '4/5', objectPosition: 'center top' }}
+                  />
+                </div>
+              </FadeSection>
+
               <FadeSection delay={100}>
                 <div>
                   <p className="section-label mb-4">Highlights</p>
