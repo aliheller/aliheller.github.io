@@ -83,6 +83,11 @@ const asiaPhotos = [
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/YQXngguNAMQBsKDi.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/PEEWvsBOUhYKlXwp.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/xTKLYlICHPOMvRou.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/uKkVBoBELkwIrFbv.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/ynlxMYeIqTbYoHVU.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/eqYkEVYSWIRNbvGx.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/yjRASmgRfdQRyoOw.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/HCLXlHBLejlGiQnW.jpg", caption: "" },
 ];
 
 const naturePhotos = [
@@ -94,6 +99,7 @@ const naturePhotos = [
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/WDFIDAJtutQDVKlr.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/QQtnOlNJONzNMDAN.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/LdDksjXgmtutrRpM.jpg", caption: "Civet" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/PgFnLJDACmxspSmY.jpg", caption: "" },
 ];
 
 const categories = [
