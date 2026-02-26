@@ -293,7 +293,7 @@ function CategorySection({ cat, index }: { cat: typeof categories[0]; index: num
 
   return (
     <FadeSection delay={index * 80}>
-      <div className="border-t border-white/10">
+      <div className="border-t border-[#E5DED6]">
         {/* Header — click to expand */}
         <button
           className="w-full text-left py-8 flex items-center gap-6 group"
@@ -310,13 +310,13 @@ function CategorySection({ cat, index }: { cat: typeof categories[0]; index: num
           {/* Title + count */}
           <div className="flex-1 min-w-0">
             <h2
-              className="text-white text-2xl md:text-3xl leading-none mb-1"
+              className="text-[#1A1714] text-2xl md:text-3xl leading-none mb-1"
               style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontWeight: 300 }}
             >
               {cat.title}
             </h2>
             <p
-              className="text-white/40 text-xs tracking-widest uppercase"
+              className="text-[#8A8480] text-xs tracking-widest uppercase"
               style={{ fontFamily: "'Jost', system-ui, sans-serif" }}
             >
               {cat.photos.length} photos
@@ -324,7 +324,7 @@ function CategorySection({ cat, index }: { cat: typeof categories[0]; index: num
           </div>
           {/* Arrow */}
           <span
-            className="text-white/40 text-2xl transition-transform duration-300 flex-shrink-0 leading-none"
+            className="text-[#8A8480] text-2xl transition-transform duration-300 flex-shrink-0 leading-none"
             style={{ transform: expanded ? "rotate(90deg)" : "rotate(0deg)" }}
           >
             ›
@@ -335,7 +335,7 @@ function CategorySection({ cat, index }: { cat: typeof categories[0]; index: num
         {expanded && (
           <div className="pb-12">
             <p
-              className="text-white/50 text-sm leading-relaxed mb-8 max-w-2xl"
+              className="text-[#6A6460] text-sm leading-relaxed mb-8 max-w-2xl"
               style={{ fontFamily: "'Lora', Georgia, serif" }}
             >
               {cat.desc}
@@ -375,7 +375,7 @@ function CategorySection({ cat, index }: { cat: typeof categories[0]; index: num
 
 export default function Photography() {
   return (
-    <div className="min-h-screen bg-[#1A1714]">
+    <div className="min-h-screen bg-[#F8F4EF]">
       <Navigation />
 
       {/* Dark header band */}
@@ -396,12 +396,12 @@ export default function Photography() {
         </div>
       </div>
       {/* Intro with B&W photo */}
-      <section className="py-16 md:py-20">
+      <section className="py-16 md:py-20 bg-[#F8F4EF]">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <FadeSection>
               <p
-                className="text-white/60 text-lg leading-relaxed"
+                className="text-[#4A4440] text-lg leading-relaxed"
                 style={{ fontFamily: "'Lora', Georgia, serif" }}
               >
                 Across fifteen years of fieldwork in West Africa, South America, and Southeast Asia, photography has been a constant companion — a way of seeing, remembering, and bearing witness to the lives of the people I have been privileged to know.
@@ -422,27 +422,27 @@ export default function Photography() {
       </section>
 
       {/* Category accordion */}
-      <section className="pb-24">
+      <section className="pb-24 bg-[#F8F4EF]">
         <div className="container">
           {categories.map((cat, i) => (
             <CategorySection key={cat.id} cat={cat} index={i} />
           ))}
-          <div className="border-t border-white/10" />
+          <div className="border-t border-[#E5DED6]" />
         </div>
       </section>
 
       {/* Instagram CTA */}
-      <section className="py-16 border-t border-white/10">
+      <section className="py-16 border-t border-[#E5DED6] bg-[#F0EBE4]">
         <div className="container text-center">
           <FadeSection>
             <p
-              className="text-white/40 text-xs tracking-widest uppercase mb-4"
+              className="text-[#8A8480] text-xs tracking-widest uppercase mb-4"
               style={{ fontFamily: "'Jost', system-ui, sans-serif" }}
             >
               Follow Along
             </p>
             <h2
-              className="text-white text-3xl md:text-4xl mb-6"
+              className="text-[#1A1714] text-3xl md:text-4xl mb-6"
               style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontWeight: 300 }}
             >
               More on Instagram
@@ -451,7 +451,7 @@ export default function Photography() {
               href="https://www.instagram.com/ali.heller/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block text-xs tracking-[0.12em] uppercase py-3 px-8 border border-white/40 text-white/80 hover:bg-white/10 transition-all duration-250"
+              className="inline-block text-xs tracking-[0.12em] uppercase py-3 px-8 border border-[#1A1714]/40 text-[#1A1714]/80 hover:bg-[#1A1714]/10 transition-all duration-250"
               style={{ fontFamily: "'Jost', system-ui, sans-serif" }}
             >
               @ali.heller
