@@ -87,6 +87,10 @@ const nigerPhotos = [
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/KBNsJNICYEFouwHl.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/WRUwkoCOwqLPmkQy.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/tCriRRDfTWMPDPNW.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/vpQSSvEeyUWfBWHx.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/DiokmQRyDRVjgvwb.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/uteNIwdpxYLpJYwm.jpg", caption: "" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/XGOBlNhkfwKOuDzh.jpg", caption: "" },
 ];
 
 const babiesPhotos = [

@@ -139,7 +139,7 @@ export default function Research() {
       </div>
 
       {/* Fieldwork photo strip */}
-      <div className="grid grid-cols-3 w-full">
+      <div className="grid grid-cols-4 w-full">
         <div className="overflow-hidden" style={{ height: '320px' }}>
           <img
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/GmGqPHFQNWUsKhHV.jpg"
@@ -162,6 +162,14 @@ export default function Research() {
             alt="Ali in hijab with women"
             className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
             style={{ objectPosition: 'center 25%' }}
+          />
+        </div>
+        <div className="overflow-hidden" style={{ height: '320px' }}>
+          <img
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/QcLOtjatgYMsDMgo.jpg"
+            alt="Ali being adorned with traditional Tuareg headpiece"
+            className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            style={{ objectPosition: 'center 30%' }}
           />
         </div>
       </div>

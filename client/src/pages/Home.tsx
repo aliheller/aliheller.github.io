@@ -6,7 +6,7 @@ import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
-const HERO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/RXIcDXNjYtacEnBb.jpg";
+const HERO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/GGGFmWKMPOdcnTiT.jpg";
 
 const PHOTO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/ebMNTyDoGJYBzdRh.jpg";
 
@@ -36,10 +36,11 @@ export default function Home() {
         style={{
           backgroundImage: `url(${HERO_BG})`,
           backgroundSize: "cover",
-          backgroundPosition: "center bottom",
+          backgroundPosition: "right center",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         <div className="container relative z-10">
           <div className="max-w-2xl">
             <p
