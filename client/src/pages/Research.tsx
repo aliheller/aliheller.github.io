@@ -37,7 +37,7 @@ const metaWork = [
     role: "Research Lead, Business & Ads Growth",
     period: "2019 – 2020",
     focus: "Foundational & Strategic Research",
-    desc: "Oversaw the scope, rigor, and impact of research across nine teams. Scoped, planned, executed, analyzed, and socialized large-scale foundational and strategic research. Informed and shaped team and org-level product strategy, roadmaps, metrics, and goals. Brought over 30 product managers, data scientists, designers, engineers, and content designers to India, Brazil, and Indonesia for in-field foundational research. Trained and mentored seven researchers.",
+    desc: "Oversaw the scope, rigor, and impact of research across nine teams. Scoped, planned, executed, analyzed, and socialized large-scale foundational and strategic research. Informed and shaped team and org-level product strategy, roadmaps, metrics, and goals. Brought over 30 product managers, data scientists, designers, engineers, and content designers to India, Brazil, and Indonesia for in-field foundational research.",
   },
 ];
 
@@ -135,6 +135,34 @@ export default function Research() {
           >
             Industry Work &<br />Publications
           </h1>
+        </div>
+      </div>
+
+      {/* Fieldwork photo strip */}
+      <div className="grid grid-cols-3 w-full">
+        <div className="overflow-hidden" style={{ height: '320px' }}>
+          <img
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/GmGqPHFQNWUsKhHV.jpg"
+            alt="Ali with women in Niger"
+            className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            style={{ objectPosition: 'center top' }}
+          />
+        </div>
+        <div className="overflow-hidden" style={{ height: '320px' }}>
+          <img
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/lBZrQxyaJZVcQsyB.jpg"
+            alt="Ali photographing woman and baby"
+            className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            style={{ objectPosition: 'center center' }}
+          />
+        </div>
+        <div className="overflow-hidden" style={{ height: '320px' }}>
+          <img
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/mRobiLBZihlMRJQQ.jpg"
+            alt="Ali in hijab with women"
+            className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            style={{ objectPosition: 'center top' }}
+          />
         </div>
       </div>
 

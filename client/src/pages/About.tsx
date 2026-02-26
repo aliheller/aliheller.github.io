@@ -28,7 +28,7 @@ const experience = [
     bullets: [
       "Research Lead, Central Youth - Age-Appropriate Experiences (2022-Present): Driving centralized product strategy for age-appropriate content and teen well-being; leading foundational research with teens and parents; scoping research related to upcoming regulatory mandates.",
       "Qualitative Research Lead, Health (2020-2022): Led large-scale global foundational research on Covid-19, childhood vaccination, blood donation, and other health initiatives; served as physical health research lead.",
-      "Research Lead, Business & Ads Growth (2019-2020): Oversaw research across nine teams; led in-field research in India, Brazil, and Indonesia with 30+ cross-functional partners; trained and mentored seven researchers.",
+      "Research Lead, Business & Ads Growth (2019-2020): Oversaw research across nine teams; led in-field research in India, Brazil, and Indonesia with 30+ cross-functional partners.",
     ],
   },
   {
@@ -185,8 +185,7 @@ export default function About() {
                   <img
                     src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/WeDswaXfzArfgpkt.jpg"
                     alt="Ali Heller"
-                    className="w-full object-cover"
-                    style={{ aspectRatio: '4/5', objectPosition: 'center top' }}
+                    className="w-full h-auto block"
                   />
                 </div>
               </FadeSection>

@@ -45,16 +45,9 @@ export default function Navigation() {
       }`}
     >
       <div className="container flex items-center justify-between h-16 md:h-20">
-        {/* Name */}
+        {/* Home link — invisible spacer to keep layout balanced */}
         <Link href="/">
-          <span
-            className={`text-xl md:text-2xl tracking-wide transition-colors duration-300 ${
-              bg ? "text-[#1A1714]" : "text-white"
-            }`}
-            style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontWeight: 400 }}
-          >
-            Ali Heller
-          </span>
+          <span className="block w-6" />
         </Link>
 
         {/* Desktop nav */}

@@ -27,14 +27,6 @@ const nigerPhotos = [
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/tDgXQPSRVLxOaOes.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/LhKDjEKmwnCploqj.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/KeCKWliayDzsWfee.jpg", caption: "" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/BRdiGMDwDGmLHlXO.jpg", caption: "" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/yBaffUtFakmBiJsF.jpg", caption: "" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/knPDyDCroktJTmOq.jpg", caption: "" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/dnbJViJnqfcgGxQa.jpg", caption: "" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/LzMFMZYnmaroadIY.jpg", caption: "" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/xAtRviTcbTuNbglh.jpg", caption: "" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/XwBLSotAgdTFqxFF.jpg", caption: "" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/ezhaJiGmoQrGkiMm.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/iKzuBfUAyKDtQcay.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/OkGvLNEAINNWFTyQ.jpg", caption: "" },
   { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/dlXzjnDamvMIIKIU.jpg", caption: "" },
@@ -388,7 +380,7 @@ export default function Photography() {
         style={{
           backgroundImage: `url(${PHOTO_HERO})`,
           backgroundSize: "cover",
-          backgroundPosition: "center center",
+          backgroundPosition: "center 20%",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-[#1A1714] via-black/30 to-transparent" />
