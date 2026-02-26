@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 const HERO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/BbJfpJpSNFHxKVVb.jpg";
 
-const PHOTO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/DYhqrxYhUKNRzCfk.jpg";
+const PHOTO_BG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332970584/ebMNTyDoGJYBzdRh.jpg";
 
 function FadeSection({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
   const ref = useRef<HTMLDivElement>(null);
